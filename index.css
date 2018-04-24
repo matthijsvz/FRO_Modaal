@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 1em;
+  font-family: sans-serif;
+  background-image: url('roffa.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.trigger img{
+  height: 4em;
+}
+
+#modaalAchtergrond{
+  background-color: rgba(0,0,0,0.5);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+}
+
+#venster{
+  width: 80vh;
+  justify-self: center;
+  align-self: center;
+  background-color: white;
+  max-height: 90vh;
+  overflow: auto;
+
+}
+
+
+.inhoud{
+  padding: 2em;
+}
+
+#sluitKnop{
+  border: none;
+  background: none;
+  font-size: 30px;
+  padding: 0px;
+}
+
+
+#wrapper{
+  text-align: center;
+    padding: 5px;
+    background-color: pink;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }
